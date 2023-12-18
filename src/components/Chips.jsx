@@ -1,3 +1,4 @@
+import React from "react";
 const Chips = ({ color, id, setCategories, categories }) => {
     const handleClick = () => {
       const index = categories.indexOf(id);

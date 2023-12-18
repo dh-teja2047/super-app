@@ -1,17 +1,16 @@
-import React from 'react';
+import React from "react";
+import styles from "./Banner.module.css";
 
-function Banner  ()  {
+const Banner = () => {
   return (
-    <div className='banner'>
-        <img src='banner2.jpg' alt='banner'/>
-        {/* <img src='/Users/dharmateja/TEJA/Web-Dev/super-app/src/assets/banner.png' alt='banner'/> */}
-        <div className='text'>
-          <p>
-            Discover new things on Superapp
-          </p>
-        </div>
-    </div>
-  )
-}
+    <>
+      
+      <div className={styles.bottom}>
+        <p>Discover new things on SuperApp</p>
+      </div>
+      <img src='banner.png' alt="banner"/>
+    </>
+  );
+};
 
 export default Banner;

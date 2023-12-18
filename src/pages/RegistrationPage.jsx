@@ -5,7 +5,7 @@ import Banner from '../components/Banner.jsx';
 
 function RegistrationPage  ()  {
   return (
-    <div className="registration">
+    <div style={{display:"flex"}}>
         <Banner/>
         <SignUp/>
     </div>
